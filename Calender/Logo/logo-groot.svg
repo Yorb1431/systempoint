@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Laag_1" data-name="Laag 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1001.37 342.01">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #4c3e79;
+        font-family: Oswald-Medium, Oswald;
+        font-size: 137.69px;
+        font-weight: 500;
+      }
+
+      .cls-2 {
+        stroke: #961d48;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2, .cls-3, .cls-5 {
+        stroke-width: 20.08px;
+      }
+
+      .cls-3 {
+        stroke: #c5919e;
+      }
+
+      .cls-4 {
+        stroke: url(#Naamloos_verloop_27);
+      }
+
+      .cls-4, .cls-6 {
+        stroke-width: 11.71px;
+      }
+
+      .cls-5 {
+        stroke: #4c3f75;
+      }
+
+      .cls-6 {
+        stroke: url(#Naamloos_verloop_23);
+      }
+
+      .cls-8 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-7 {
+        stroke: url(#Naamloos_verloop_20);
+        stroke-width: 10.04px;
+      }
+
+      .cls-9 {
+        letter-spacing: -.03em;
+      }
+    </style>
+    <linearGradient id="Naamloos_verloop_20" data-name="Naamloos verloop 20" x1="194.91" y1="54.36" x2="303.63" y2="54.36" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4c3f75"/>
+      <stop offset="1" stop-color="#c5919e"/>
+    </linearGradient>
+    <linearGradient id="Naamloos_verloop_23" data-name="Naamloos verloop 23" x1="1058.75" y1="3.94" x2="1132.96" y2="3.94" gradientTransform="translate(1051.61 -489.13) rotate(135)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c5919e"/>
+      <stop offset="1" stop-color="#961d48"/>
+    </linearGradient>
+    <linearGradient id="Naamloos_verloop_27" data-name="Naamloos verloop 27" x1="336.71" y1="467.85" x2="432.3" y2="467.85" gradientTransform="translate(106.73 -363.32) rotate(45)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4c3f75"/>
+      <stop offset="1" stop-color="#961d48"/>
+    </linearGradient>
+  </defs>
+  <path class="cls-3" d="m288.4,84.42c20.75,24.79,33.23,56.76,33.23,91.64,0,31.2-9.99,60.08-26.95,83.59"/>
+  <circle class="cls-7" cx="249.27" cy="54.36" r="49.34"/>
+  <circle class="cls-6" cx="273.94" cy="282.97" r="31.25"/>
+  <circle class="cls-4" cx="47.79" cy="239.39" r="41.94"/>
+  <path class="cls-5" d="m37.26,198.79c-1.17-7.41-1.79-14.99-1.79-22.74,0-79.02,64.05-143.07,143.07-143.07,8.61,0,17.05.77,25.25,2.2"/>
+  <path class="cls-2" d="m73.15,272.79c26.13,28.5,63.67,46.36,105.39,46.36,25.37,0,49.18-6.6,69.84-18.19h.02"/>
+  <text class="cls-1" transform="translate(342.01 297.54)"><tspan x="0" y="0">System</tspan><tspan class="cls-9" x="387.03" y="0">P</tspan><tspan class="cls-8" x="455.05" y="0">o</tspan><tspan x="514.25" y="0">int</tspan></text>
+</svg>

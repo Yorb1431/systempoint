@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+
+:root {
+  --font-style: 'Nunito Sans', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #131315;
+  font-family: var(--font-style);
+}
+
+.form-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 25rem;
+  padding: 2.5rem;
+  transform: translate(-50%, -50%);
+  background: #242026;
+  box-shadow: 0 0.9375rem 1.5625rem rgba(143, 124, 236, 0.7);
+  border-radius: 1.25rem;
+}
+
+.form-container h2 {
+  margin: 0 0 1.875rem;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.input-container input {
+  position: relative;
+  width: 100%;
+  padding: 0.625rem 0;
+  font-size: 1rem;
+  color: #fff;
+  margin-bottom: 1.875rem;
+  border: none;
+  border-bottom: 0.0625rem solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+.input-container label {
+  position: relative;
+  left: 0;
+  top: -3.75rem;
+  padding: 0.625rem 0;
+  font-size: 1rem;
+  color: #fff;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.input-container input:focus ~ label,
+.input-container input:valid ~ label {
+  top: -5.3125rem;
+  left: 0;
+  color: #8f7cec;
+  font-size: 0.75rem;
+}
+
+#submit {
+  padding: 0.625rem 1.25rem;
+  color: #cbbddb;
+  font-size: 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.5s;
+  letter-spacing: 0.25rem;
+  border: 0.0625rem solid #8f7cec;
+  margin: auto;
+}
+
+#submit:hover {
+  background: #8f7cec;
+  color: #fff;
+  border-radius: 0.3125rem;
+  box-shadow: 0 0 0.3125rem #8f7cec, 0 0 1.25rem #8f7cec, 0 0 2.5rem #8f7cec, 0 0 5rem #8f7cec;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1.25rem;
+}
+
+#register {
+  font-size: 0.875rem;
+  text-decoration: none;
+  color: #cbbddb;
+  margin: auto;
+  width: 60%;
+  text-align: center;
+}
+
+#register a {
+  margin: auto;
+  color: #8f7cec;
+  text-decoration: none;
+}
+
+footer {
+    background-color: #131315;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
