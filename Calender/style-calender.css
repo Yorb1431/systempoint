@@ -7,302 +7,310 @@
   font-family: "Oswald", sans-serif;
 }
 body {
-    min-height: 100vh;
-    background: url("../Calender/calendar-pic/calender-pic.png") no-repeat center center fixed;
-    background-size: 90%; /* Scale the image down to 80% of its original size */
-    overflow: hidden; /* Prevent scrolling */
-    background-color: #131315;
+  min-height: 100vh;
+  background: url("../Calender/calendar-pic/calender-pic.png") no-repeat center
+    center fixed;
+  background-size: 90%; /* Scale the image down to 80% of its original size */
+  overflow: hidden; /* Prevent scrolling */
+  background-color: #131315;
 }
 
 .login-link {
-    position: fixed;
-    right: 40px;
-    text-decoration: none;
-    font-size: 1.35rem;
-    color: white;
-  }
+  position: fixed;
+  right: 40px;
+  text-decoration: none;
+  font-size: 1.35rem;
+  color: white;
+}
 
-  .login-link:hover {
-    color: blue;
-    text-decoration: underline;
-  }
+.login-link:hover {
+  color: blue;
+  text-decoration: underline;
+}
 
-  .dark {
-    color: black !important;
-  }
+.dark {
+  color: black !important;
+}
 
-  nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 70px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    background: #000000;
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
-    z-index: 99;
-  }
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: #000000;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+  z-index: 99;
+}
 
-  .logo {
-    color: rgb(226, 226, 226);
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    font-size: 20rem;
-  }
-  
-  nav .logo {
-    display: flex;
-    align-items: center;
-    margin: 0 24px;
-  }
-  
-  .logo .menu-icon {
-    color: white;
-    font-size: 24px;
-    margin-right: 14px;
-    cursor: pointer;
-  }
-  
-  .logo .logo-name {
-    color: #000000;
-    font-size: 22px;
-    font-weight: 500;
-  }
-  nav .sidebar {
-    position: fixed;
-    top: 0;
-    left: -100%;
-    height: 100%;
-    width: 260px;
-    padding: 20px 0;
-    background-color: #fff;
-    box-shadow: 0 5px 1px rgba(0, 0, 0, 0.1);
-    transition: all 0.4s ease;
-  }
+.logo {
+  color: rgb(226, 226, 226);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 20rem;
+}
+
+nav .logo {
+  display: flex;
+  align-items: center;
+  margin: 0 24px;
+}
+
+.logo .menu-icon {
+  color: white;
+  font-size: 24px;
+  margin-right: 14px;
+  cursor: pointer;
+}
+
+.logo .logo-name {
+  color: #000000;
+  font-size: 22px;
+  font-weight: 500;
+}
+nav .sidebar {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  height: 100%;
+  width: 260px;
+  padding: 20px 0;
+  background-color: #fff;
+  box-shadow: 0 5px 1px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s ease;
+}
 nav.open .sidebar {
-    left: 0;
+  left: 0;
 }
 .sidebar .sidebar-content {
-    display: flex;
-    height: 100%;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 30px 16px;
-  }
-.sidebar-content .list {
-    list-style: none;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px 16px;
 }
-.emblem{
-    width: 10rem;
+.sidebar-content .list {
+  list-style: none;
+}
+.emblem {
+  width: 10rem;
 }
 .list .nav-link {
-    display: flex;
-    align-items: center;
-    margin: 8px 0;
-    padding: 14px 12px;
-    border-radius: 8px;
-    text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+  padding: 14px 12px;
+  border-radius: 8px;
+  text-decoration: none;
 }
 .lists .nav-link:hover {
-    background-color: #4070f4;
+  background-color: #4070f4;
 }
 .nav-link .icon {
-    margin-right: 14px;
-    font-size: 20px;
-    color: #707070;
+  margin-right: 14px;
+  font-size: 20px;
+  color: #707070;
 }
 .nav-link .link {
-    font-size: 16px;
-    color: #707070;
-    font-weight: 400;
+  font-size: 16px;
+  color: #707070;
+  font-weight: 400;
 }
 .lists .nav-link:hover .icon,
 .lists .nav-link:hover .link {
-    color: #fff;
+  color: #fff;
 }
 .overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100%;
-    opacity: 1;
-    pointer-events: auto;
-    transition: all 0.4s ease;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background: url("../Animation/Animation-export/Animation-GIP-Yorbe-van-der-Mast-Final.mp4") no-repeat center center fixed;
-    background-size: cover;
-
-  }
-  .emblem{
-    width: 10rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  opacity: 1;
+  pointer-events: auto;
+  transition: all 0.4s ease;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background: url("../Animation/Animation-export/Animation-GIP-Yorbe-van-der-Mast-Final.mp4")
+    no-repeat center center fixed;
+  background-size: cover;
+}
+.emblem {
+  width: 10rem;
 }
 
 /* Search icon x try  */
 .button,
 input {
-    font: 1em Hind, sans-serif;
-    line-height: 1.5em;
+  font: 1em Hind, sans-serif;
+  line-height: 1.5em;
 }
 
 input {
-    color: white;
+  color: white;
 }
 
 .search-bar {
-    display: flex;
+  display: flex;
 }
 
 .search-bar input,
 .searsh-button,
 .searsh-button:before,
 .searsh-button:after {
-    transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
 }
 
 .search-bar input,
 .searsh-button {
-    width: 3em;
-    height: 3em;
+  width: 3em;
+  height: 3em;
 }
 
 .search-bar input:invalid:not(:focus),
 .searsh-button {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .search-bar,
 .search-bar input:focus,
 .search-bar input:valid {
-    width: 100%;
+  width: 100%;
 }
 
 .search-bar input:focus,
 .search-bar input:not(:focus) + .searsh-button:focus {
-    outline: transparent;
+  outline: transparent;
 }
 
 .search-bar {
-    margin: auto;
-    padding: 1.5em;
-    justify-content: center;
-    max-width: 30em;
+  margin: auto;
+  padding: 1.5em;
+  justify-content: center;
+  max-width: 30em;
 }
 
 .search-bar input {
-    background: transparent;
-    border-radius: 1.5em;
-    box-shadow: 0 0 0 0.4em #f1f1f1 inset;
-    padding: 0.75em;
-    transform: translate(0.5em, 0.5em) scale(0.5);
-    transform-origin: 100% 0;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
+  background: transparent;
+  border-radius: 1.5em;
+  box-shadow: 0 0 0 0.4em #f1f1f1 inset;
+  padding: 0.75em;
+  transform: translate(0.5em, 0.5em) scale(0.5);
+  transform-origin: 100% 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 .search-bar input:focus,
 .search-bar input:valid {
-    background: #282539;
-    border-radius: 0.375em 0 0 0.375em;
-    box-shadow: 0 0 0 0.1em #cbbddb inset;
-    transform: scale(1);
+  background: #282539;
+  border-radius: 0.375em 0 0 0.375em;
+  box-shadow: 0 0 0 0.1em #cbbddb inset;
+  transform: scale(1);
 }
 
 .searsh-button {
-    background: #f1f1f1;
-    border-radius: 0 0.75em 0.75em 0 / 0 1.5em 1.5em 0;
-    padding: 0.75em;
-    position: relative;
-    transform: translate(0.25em, 0.25em) rotate(45deg) scale(0.25, 0.125);
-    transform-origin: 0 50%;
+  background: #f1f1f1;
+  border-radius: 0 0.75em 0.75em 0 / 0 1.5em 1.5em 0;
+  padding: 0.75em;
+  position: relative;
+  transform: translate(0.25em, 0.25em) rotate(45deg) scale(0.25, 0.125);
+  transform-origin: 0 50%;
 }
 
 .searsh-button:before,
 .searsh-button:after {
-    content: "";
-    display: block;
-    opacity: 0;
-    position: absolute;
+  content: "";
+  display: block;
+  opacity: 0;
+  position: absolute;
 }
 
 .searsh-button:before {
-    border-radius: 50%;
-    box-shadow: 0 0 0 0.2em #f1f1f1 inset;
-    top: 0.75em;
-    left: 0.75em;
-    width: 1.2em;
-    height: 1.2em;
+  border-radius: 50%;
+  box-shadow: 0 0 0 0.2em #f1f1f1 inset;
+  top: 0.75em;
+  left: 0.75em;
+  width: 1.2em;
+  height: 1.2em;
 }
 
 .searsh-button:after {
-    background: #f1f1f1;
-    border-radius: 0 0.25em 0.25em 0;
-    top: 51%;
-    left: 51%;
-    width: 0.75em;
-    height: 0.25em;
-    transform: translate(0.2em, 0) rotate(45deg);
-    transform-origin: 0 50%;
+  background: #f1f1f1;
+  border-radius: 0 0.25em 0.25em 0;
+  top: 51%;
+  left: 51%;
+  width: 0.75em;
+  height: 0.25em;
+  transform: translate(0.2em, 0) rotate(45deg);
+  transform-origin: 0 50%;
 }
 
 .searsh-button span {
-    display: inline-block;
-    overflow: hidden;
-    width: 1px;
-    height: 1px;
+  display: inline-block;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
 }
 
 input[type="search"]::-webkit-search-cancel-button {
-    display: inline-block;
-    width: 12px;
-    height: 12px;
-    margin-left: 10px;
-    background: linear-gradient(
-            45deg,
-            rgba(0, 0, 0, 0) 0%,
-            rgba(0, 0, 0, 0) 43%,
-            #cbbddb 45%,
-            #cbbddb 55%,
-            rgba(0, 0, 0, 0) 57%,
-            rgba(0, 0, 0, 0) 100%
-        ),
-        linear-gradient(
-            135deg,
-            transparent 0%,
-            transparent 43%,
-            #cbbddb 45%,
-            #cbbddb 55%,
-            transparent 57%,
-            transparent 100%
-        );
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-left: 10px;
+  background: linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0) 43%,
+      #cbbddb 45%,
+      #cbbddb 55%,
+      rgba(0, 0, 0, 0) 57%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    linear-gradient(
+      135deg,
+      transparent 0%,
+      transparent 43%,
+      #cbbddb 45%,
+      #cbbddb 55%,
+      transparent 57%,
+      transparent 100%
+    );
 }
 
 .search-bar input:focus + .searsh-button,
 .search-bar input:valid + .searsh-button {
-    background: #4070f4;
-    transform: scale(1);
+  background: #4070f4;
+  transform: scale(1);
 }
 
 .search-bar input:focus + .searsh-button:before,
 .search-bar input:focus + .searsh-button:after,
 .search-bar input:valid + .searsh-button:before,
 .search-bar input:valid + .searsh-button:after {
-    opacity: 1;
+  opacity: 1;
 }
 
 .search-bar input:focus + .searsh-button:active,
 .search-bar input:valid + .searsh-button:active {
-    transform: translateY(1px);
+  transform: translateY(1px);
 }
 .searsh-button:focus
-    + .searsh-button:active
-    + .searsh-button:before
-    + .searsh-button:after
-    :target {
-    transform-origin: 0vw;
-    transition-duration: calc(0, 0, 0, 0);
+  + .searsh-button:active
+  + .searsh-button:before
+  + .searsh-button:after
+  :target {
+  transform-origin: 0vw;
+  transition-duration: calc(0, 0, 0, 0);
+}
+
+@media only screen and (max-width: 600px) {
+  nav .logo .emblem {
+    height: 50px;
+    display: none;
+  }
 }

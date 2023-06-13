@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap");
 
 :root {
-  --font-style: 'Nunito Sans', sans-serif;
+  --font-style: "Nunito Sans", sans-serif;
 }
 
 * {
@@ -81,7 +81,8 @@ body {
   background: #8f7cec;
   color: #fff;
   border-radius: 0.3125rem;
-  box-shadow: 0 0 0.3125rem #8f7cec, 0 0 1.25rem #8f7cec, 0 0 2.5rem #8f7cec, 0 0 5rem #8f7cec;
+  box-shadow: 0 0 0.3125rem #8f7cec, 0 0 1.25rem #8f7cec, 0 0 2.5rem #8f7cec,
+    0 0 5rem #8f7cec;
 }
 
 .button-container {
@@ -106,13 +107,19 @@ body {
 }
 
 footer {
-    background-color: #131315;
-    color: #fff;
-    text-align: center;
-    padding: 1rem;
+  background-color: #131315;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+footer p {
+  margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  nav .logo .emblem {
+    height: 50px;
+    display: none;
   }
-  
-  footer p {
-    margin: 0;
-  }
-  
+}
